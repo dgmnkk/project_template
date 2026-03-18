@@ -1,5 +1,57 @@
+# ===== Байт-код Python =====
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# ===== Віртуальне середовище =====
 venv/
 .venv/
 env/
 .env/
 ENV/
+
+# ===== Змінні середовища =====
+.env
+*.env
+.env.local
+
+# ===== Дистрибуція / пакування =====
+dist/
+build/
+*.egg-info/
+*.egg
+MANIFEST
+
+# ===== IDE та редактори =====
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ===== Jupyter Notebook =====
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ===== Тести та покриття =====
+.pytest_cache/
+.coverage
+htmlcov/
+coverage.xml
+
+# ===== Логи =====
+*.log
+logs/
+
+# ===== Бази даних =====
+*.sqlite3
+*.db
+
+# ===== ML / Data Science =====
+*.csv
+*.pkl
+*.h5
+*.model
+data/raw/
+models/
+data/
